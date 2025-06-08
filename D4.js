@@ -4,6 +4,13 @@
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
+const area = function (l1, l2) {
+  const result = l1 * l2
+  console.log("The rectangle area is " + result)
+}
+
+area(8, 12)
+
 /* ESERCIZIO 2
  Scrivi una funzione di nome "crazySum", che riceve due numeri interi come parametri.
  La funzione deve ritornare la somma dei due parametri, ma se il valore dei due parametri è il medesimo deve invece tornare
@@ -11,6 +18,19 @@
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+
+const crazySum = function (n1, n2) {
+  if (n1 === n2) {
+    return (n1 + n2) * 3)
+  } else {
+    return (n1 + n2)
+  }
+}
+
+crazySum(5, 5)
+
+console.log(crazySum);
+
 
 /* ESERCIZIO 3
  Scrivi una funzione di nome "crazyDiff" che calcola la differenza assoluta tra un numero fornito come parametro e 19.
